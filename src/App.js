@@ -7,7 +7,7 @@ import { Home, About, Contact, Members, Member } from "./pages";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/obiesource.github.io">
       <div className="App">
         <Navbar />
         <Routes>
